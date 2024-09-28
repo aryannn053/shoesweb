@@ -25,9 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2&amp;display=swap" rel="stylesheet"/>
+      </head>
+      <body>
         {children}
       </body>
     </html>

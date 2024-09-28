@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import shoes from "./assets/shoes.png"
@@ -49,10 +50,10 @@ export default function Home() {
           <p className="font-medium mb-8">Clothes and Shoes <span className="lightgraay-colored px-3">•</span> Shoes <span className="lightgraay-colored px-3">•</span> Rebook</p>
           <Image src={shoes} alt="shoes" className="rounded" width="700"></Image>
           <div className="grid grid-cols-4 gap-4 py-8">
-            <Image src={s1} className="border border-gray-400 rounded"></Image>
-            <Image src={s2}></Image>
-            <Image src={s3}></Image>
-            <Image src={s4}></Image>
+            <Image src={s1} className="border border-gray-400 rounded" alt="skill issue"></Image>
+            <Image src={s2} alt="skill issue"></Image>
+            <Image src={s3} alt="skill issue"></Image>
+            <Image src={s4} alt="skill issue"></Image>
           </div>
         </div>
         <div>
